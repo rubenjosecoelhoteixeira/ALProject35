@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Result" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Result" msdata:Locale="">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Customer_Number" type="xs:string" minOccurs="0" />
+                <xs:element name="Customer_Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Qty" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Result>
+    <Customer_Number>60000</Customer_Number>
+    <Customer_Name>Blanemark Hifi Shop</Customer_Name>
+    <Qty>72</Qty>
+  </Result>
+  <Result>
+    <Customer_Number>49525252</Customer_Number>
+    <Customer_Name>Beef House</Customer_Name>
+    <Qty>34</Qty>
+  </Result>
+  <Result>
+    <Customer_Number>20000</Customer_Number>
+    <Customer_Name>Selangorian Ltd.</Customer_Name>
+    <Qty>30</Qty>
+  </Result>
+  <Result>
+    <Customer_Number>40000</Customer_Number>
+    <Customer_Name>Deerfield Graphics Company</Customer_Name>
+    <Qty>30</Qty>
+  </Result>
+  <Result>
+    <Customer_Number>49633663</Customer_Number>
+    <Customer_Name>Autohaus Mielberg KG</Customer_Name>
+    <Qty>30</Qty>
+  </Result>
+</DataSet>
